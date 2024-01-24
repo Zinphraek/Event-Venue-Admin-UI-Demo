@@ -1,0 +1,31 @@
+/* Base style for small screens: one scrollable row */
+.div-grid {
+  display: grid;
+  grid-auto-flow: column;
+  overflow-x: auto;
+  column-gap: 8px;
+  height: auto;
+}
+
+/* Medium screens (768px): 10 columns */
+@media (min-width: 768px) {
+  .div-grid {
+    grid-auto-flow: row;
+    grid-template-columns: repeat(10, auto);
+  }
+}
+
+/* Large screens (976px): 15 columns */
+@media (min-width: 976px) {
+  .div-grid {
+    grid-auto-flow: row;
+    grid-template-rows: repeat(15, auto);
+  }
+}
+
+/* Extra-large screens (1440px): 20 columns */
+@media (min-width: 1440px) {
+  .div-grid {
+    grid-template-rows: repeat(20, auto);
+  }
+}

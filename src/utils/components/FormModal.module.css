@@ -1,0 +1,83 @@
+.action-button {
+  width: 95px;
+  margin-left: 1rem;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: #fff;
+  background: blue;
+  cursor: pointer;
+  position: relative;
+  border-radius: 7px;
+}
+
+.action-button:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.background-layer {
+}
+
+.body {
+}
+
+.cancel-button {
+  width: 95px;
+  height: 35px;
+  border: none;
+  outline: none;
+  color: blue;
+  margin-bottom: 0.5rem;
+  background: white;
+  cursor: pointer;
+  position: relative;
+  border-radius: 7px;
+  border: solid blue 1.5px;
+}
+
+.cancel-button:hover {
+  cursor: pointer;
+  transform: scale(1.1, 1.1);
+}
+
+.close {
+  position: sticky;
+  top: 0px;
+  right: 0px;
+  border: none;
+}
+
+.footer {
+  position: relative;
+  border: none;
+}
+.go-back-button {
+}
+.header {
+  font-family: Georgia, serif;
+  margin-top: 3.5rem;
+}
+
+.modal {
+  top: 50%;
+  left: 50%;
+  right: 20%;
+  bottom: -15%;
+  border-radius: 9px;
+  margin-right: -30%;
+  outer-width: 10%;
+  inner-width: 10%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+  z-index: 1100;
+}

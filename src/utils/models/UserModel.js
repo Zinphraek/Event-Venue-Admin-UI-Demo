@@ -1,0 +1,16 @@
+export const UserModel = {
+  id: "",
+  userId: "",
+  username: "",
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  dateOfBirth: "",
+  gender: "",
+  street: "",
+  city: "",
+  state: "",
+  zipCode: "",
+  enabled: false,
+};

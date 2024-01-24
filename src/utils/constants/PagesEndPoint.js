@@ -1,0 +1,15 @@
+module.exports = Object.freeze({
+  ACCOUNT_PAGE_URL: "/account",
+  ADDONS_PAGE_URL: "/addons",
+  APPOINTMENTS_PAGE_URL: "/appointments",
+  DASHBOARD_PAGE_URL: "/",
+  EVENT_PAGE_URL: "/events",
+  FAQS_PAGE_URL: "/faqs",
+  FRONT_END_HOME_PAGE_URL: "https://www.leprestigehall.net/",
+  HOME_PAGE_URL: "/",
+  INVOICES_PAGE_URL: "/invoices",
+  RESERVATIONS_PAGE_URL: "/reservations",
+  RECEIPTS_PAGE_URL: "/receipts",
+  PROFILE_PAGE_URL: "/profile",
+  USERS_PAGE_URL: "/users",
+});
