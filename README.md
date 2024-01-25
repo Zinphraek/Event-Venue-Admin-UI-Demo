@@ -1,6 +1,6 @@
 # Le Prestige Hall Admin Console UI Demo.
 
-This is a demo of the Admin Console UI (User Interface) for Le Prestige Hall, Inc.
+This live demo can be accessed [here.](https://proud-coast-0cf7ef70f.4.azurestaticapps.net)
 
 
 ## Available Scripts
